@@ -1,0 +1,12 @@
+    python manage.py migrate
+
+
+  Id CommandLine                                                                                                                           
+  -- -----------                                                                                                                           
+   4 python manage.py makemigrations dairy                                                                                                 
+   5 python manage.py migrate                                                                                                              
+   7 python manage.py sqlmigrate dairy 0001   # cmd to cross verify
+   8 python manage.py shell           # application 'shell' connection
+                                                                       
+
+
